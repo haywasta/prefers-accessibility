@@ -62,9 +62,23 @@ html {
 }
 
 @media (prefers-reduced-motion) {
+
   .gear {
     animation: none;
   }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #111;
+  }
+
+  .banner {
+    background-color: #333;
+  }
+
 }
 /* stylelint-disable media-feature-name-no-unknown */
 
