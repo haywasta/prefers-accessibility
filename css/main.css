@@ -70,7 +70,6 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
-
   body {
     background-color: #111;
   }
@@ -78,9 +77,15 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
-
   h1 {
     background-color: #ccc;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .banner {
+    background-color: #333;
   }
 
 }
